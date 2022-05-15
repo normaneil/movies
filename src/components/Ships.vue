@@ -64,7 +64,7 @@ export default {
         data.push(item);
       });
       this.items = _.orderBy(data, ["length"], ["asc"]);
-      console.log("new this.page", this.page);
+      // console.log("new this.page", this.page);
     },
   },
 };

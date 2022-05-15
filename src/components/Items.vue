@@ -91,7 +91,7 @@ export default {
   },
   methods: {
     goto(item) {
-      console.log(item);
+      // console.log(item);
       this.showModal = !this.showModal;
       this.item = item;
     },
